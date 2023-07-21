@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<!-- saved from url=(0044)file:///D:/New%20folder/form%20-%20Copy.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+	<style type="text/css">
+		body {
+	  margin-top: 100px;
+	  margin-left: 300px;
+	  margin-right: 300px;
+	 background-color: gray;
+     font-size: 20px;}
+	 h1{font-size: 50px;
+	   text-align: center;}
+	 div{background-color: white;
+	    padding: 50px;}
+	 .p{background-color: green;
+	 	font-style: bold;
+        text-align: center;
+	    padding: 10px;
+
+	}
+	</style>
+</head>
+<body>
+	<h1> Survey Form</h1>
+	<div>
+	Name:<br><br><input type="text" name="x" placeholder="Enter your name"><br><br>
+	Email:<br><br><input type="text" name="b" placeholder="Enter your email" required="required"><br><br>
+	Age:<br><br><input type="number" name="1" placeholder="Enter your age"><br><br>
+	Which option best describes you?<br><br><select name="choices">
+		<option>student</option>
+		<option>internal</option>
+	    <option>professional</option>
+	    <option>others</option>
+	</select><br><br>
+	Would you recommend BLDEACET to a friend?<br><br>
+	<input type="radio" name="a"> Yes<br><br>
+	<input type="radio" name="s"> No<br><br>
+	<input type="radio" name="d"> May be<br><br>
+	Languages andFrameworks known (check all that apply):<br><br>
+	<input type="checkbox" name="e"> C<br><br>
+	<input type="checkbox" name="r"> C++<br><br>
+	<input type="checkbox" name="t"> C#<br><br>
+	<input type="checkbox" name="y"> Java<br><br>
+	<input type="checkbox" name="u"> Python<br><br>
+	<input type="checkbox" name="i"> JavaScipt<br><br>
+	<input type="checkbox" name="o"> React<br><br>
+	<input type="checkbox" name="p"> Angular<br><br>
+	<input type="checkbox" name="q"> Django<br><br>
+	<input type="checkbox" name="w"> Spring<br><br>
+	Any comments or suggestions:<br><br><textarea></textarea>
+
+<p class="p">Submit</p>
+</div>
+
+</body></html>
